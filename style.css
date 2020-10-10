@@ -207,11 +207,15 @@ body {
 }
 
 @media (max-width: 768px) {
+    .menu .brand {
+        display: inherit;
+    }
     .menu {
         order: -1;
         justify-items: end;
         background-color: black;
         padding: 20px;
+        grid-template-columns: 1fr 1fr;
     }
     .menu-toggle {
         display: flex;
