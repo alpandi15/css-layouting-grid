@@ -214,7 +214,7 @@ body {
         order: -1;
         justify-items: end;
         background-color: black;
-        padding: 20px;
+        padding: 7px 20px;
         grid-template-columns: 1fr 1fr;
     }
     .menu-toggle {
@@ -243,6 +243,11 @@ body {
     }
     .container {
         gap: 0;
+    }
+
+    .menu .brand {
+        order: -1;
+        color: white;
     }
 
 }
